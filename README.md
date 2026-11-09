@@ -54,6 +54,7 @@ I'm building [Sprout](https://github.com/Neonat/sprout-web), contributing to AI 
 
 ## More to explore
 
+- **[PettiChat research case study](docs/case-studies/pettichat-dialogue-evaluation.md)** — persona-based dialogue generation, emotion/style evaluation and RoBERTa fine-tuning from my affective-computing internship.
 - **[Sprout Android](https://github.com/Neonat/sprout-android)** — the Java/Android plant-to-creature game, previously called Plantemon.
 - **[Scam-message checker](https://github.com/Neonat/scam-message-checker)** — a Code EXP 2026 browser prototype using explicit rules to highlight suspicious-message signals.
 - **[Arcade prototype](https://github.com/Neonat/sutd-50002-fpga-arcade-machine)** — a two-player browser game and sprite studies for an arcade-machine project.
