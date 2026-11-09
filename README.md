@@ -15,11 +15,9 @@ I build and contribute to AI tools, web applications and interactive systems. My
 <p align="center">
   <a href="https://github.com/Neonat/sprout-web">
     <img src="https://raw.githubusercontent.com/Neonat/sprout-web/main/client/public/plants/SPRITE_Monstera.png" width="80" alt="Monstera plant creature from Sprout">
-    <img src="https://raw.githubusercontent.com/Neonat/sprout-web/main/client/public/plants/SPRITE_Helianthus.png" width="80" alt="Helianthus plant creature from Sprout">
-    <img src="https://raw.githubusercontent.com/Neonat/sprout-web/main/client/public/plants/SPRITE_Amanita.png" width="80" alt="Amanita plant creature from Sprout">
   </a>
   <br>
-  <sub>Plant creatures from our Sprout project.</sub>
+  <sub>A creature from our Sprout project.</sub>
 </p>
 
 ## Technologies across these projects
