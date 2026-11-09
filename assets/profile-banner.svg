@@ -15,9 +15,9 @@
   <ellipse cx="966" cy="130" rx="360" ry="245" fill="url(#glow)"/>
   <path d="M724 0v280M0 248h1200" fill="none" stroke="#A7D7BF" stroke-opacity=".08"/>
   <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
-    <text x="52" y="52" fill="#A9D6BF" font-size="15" font-weight="600" letter-spacing="4">NEONAT</text>
-    <text x="48" y="160" fill="#F3F5E9" font-size="104" font-weight="700" letter-spacing="-4">Nat</text>
-    <text x="52" y="211" fill="#C1D8CB" font-size="25">AI tools, web apps &amp; interactive systems.</text>
+    <text x="48" y="120" fill="#F3F5E9" font-size="120" font-weight="700" letter-spacing="-4">Nat</text>
+    <text x="52" y="178" fill="#C1D8CB" font-size="54" font-weight="500">AI tools &amp; web apps</text>
+    <text x="52" y="235" fill="#C1D8CB" font-size="54" font-weight="500">Interactive systems</text>
   </g>
   <g fill="none" stroke-linecap="round" stroke-linejoin="round">
     <rect x="810" y="43" width="322" height="192" rx="16" fill="#D3E8D7" fill-opacity=".035" stroke="#A7D7BF" stroke-opacity=".27"/>
