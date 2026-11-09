@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280" role="img" aria-labelledby="title desc">
+  <title id="title">Nat — AI tools, web apps and interactive systems</title>
+  <desc id="desc">A forest-green banner with Nat's name and an abstract interface connected to a growing plant and circuit nodes.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#102D28"/>
+      <stop offset="1" stop-color="#071B18"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop offset="0" stop-color="#4A947C" stop-opacity=".22"/>
+      <stop offset="1" stop-color="#4A947C" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="280" rx="18" fill="url(#background)"/>
+  <ellipse cx="966" cy="130" rx="360" ry="245" fill="url(#glow)"/>
+  <path d="M724 0v280M0 248h1200" fill="none" stroke="#A7D7BF" stroke-opacity=".08"/>
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <text x="52" y="52" fill="#A9D6BF" font-size="15" font-weight="600" letter-spacing="4">NEONAT</text>
+    <text x="48" y="160" fill="#F3F5E9" font-size="104" font-weight="700" letter-spacing="-4">Nat</text>
+    <text x="52" y="211" fill="#C1D8CB" font-size="25">AI tools, web apps &amp; interactive systems.</text>
+  </g>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="810" y="43" width="322" height="192" rx="16" fill="#D3E8D7" fill-opacity=".035" stroke="#A7D7BF" stroke-opacity=".27"/>
+    <path d="M810 81h322" stroke="#A7D7BF" stroke-opacity=".16"/>
+    <path d="M844 110h86m-86 18h58m-58 18h73" stroke="#A7D7BF" stroke-width="6" stroke-opacity=".24"/>
+    <path d="M842 187h75m-75 16h43" stroke="#A7D7BF" stroke-width="5" stroke-opacity=".13"/>
+    <path d="M1014 201v-66c0-22 14-39 37-48-1 25-14 44-37 48m0 38c-24 0-40-14-44-36 26-1 42 12 44 36" stroke="#94D5AD" stroke-width="4"/>
+    <path d="M1014 201h51v-26h31m-82 26h-51v-27h-23" stroke="#94D5AD" stroke-opacity=".55" stroke-width="2"/>
+    <circle cx="1097" cy="175" r="5" fill="#D4AA73" stroke="#D4AA73"/>
+    <circle cx="938" cy="174" r="5" fill="#94D5AD" stroke="#94D5AD"/>
+    <circle cx="1065" cy="201" r="4" fill="#102D28" stroke="#94D5AD" stroke-width="2"/>
+  </g>
+  <circle cx="832" cy="62" r="4" fill="#D4AA73"/>
+  <circle cx="847" cy="62" r="4" fill="#80A99B"/>
+  <circle cx="862" cy="62" r="4" fill="#537D70"/>
+</svg>
