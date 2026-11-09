@@ -1,4 +1,4 @@
-<img src="assets/profile-banner.svg?v=20261110-readable" alt="Nat — AI tools, web apps and interactive systems" width="100%">
+<img src="assets/profile-banner.svg?v=20261110-spacing" alt="Nat — AI tools, web apps and interactive systems" width="100%">
 
 # Hi, I'm Nat 👋
 
