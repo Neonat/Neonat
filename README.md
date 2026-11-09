@@ -15,9 +15,11 @@ I build and contribute to AI tools, web applications and interactive systems. My
 <p align="center">
   <a href="https://github.com/Neonat/sprout-web">
     <img src="https://raw.githubusercontent.com/Neonat/sprout-web/main/client/public/plants/SPRITE_Monstera.png" width="80" alt="Monstera plant creature from Sprout">
+    <img src="assets/sprout-orchid.png" width="80" alt="Calm orchid profile companion inspired by Sprout">
+    <img src="assets/sprout-cactus.png" width="80" alt="Cheeky cactus profile companion inspired by Sprout">
   </a>
   <br>
-  <sub>A creature from our Sprout project.</sub>
+  <sub>Monstera and two new Sprout-inspired profile companions.</sub>
 </p>
 
 ## Technologies across these projects
