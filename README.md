@@ -1,4 +1,4 @@
-<img src="assets/profile-banner.svg?v=20261110-spacing" alt="Nat — AI tools, web apps and interactive systems" width="100%">
+<img src="https://raw.githubusercontent.com/Neonat/Neonat/829c115dd0b3f8a2e23e553798288caebdb1b120/assets/profile-banner.svg" alt="Nat — AI tools, web apps and interactive systems" width="100%">
 
 # Hi, I'm Nat 👋
 
