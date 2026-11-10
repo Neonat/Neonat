@@ -4,7 +4,7 @@
 
 I'm a computer science student at SUTD building useful generative AI applications, with a focus on LLM workflows, evaluation, and multimodal generation.
 
-I'm building [Sprout](https://github.com/Neonat/sprout-web), contributing to AI Pass in AI product & operations at Singtel, and leading GDG on Campus at SUTD. My experience includes dialogue generation and evaluation pipelines at PettiChat. I enjoy staying close to users and bringing developers together through technical workshops.
+I'm working with the [Sprout](https://github.com/Neonat/sprout-web) team, contributing to AI Pass in AI product & operations at Singtel, and leading GDG on Campus at SUTD. My experience includes dialogue generation and evaluation pipelines at PettiChat. I enjoy staying close to users and bringing developers together through technical workshops.
 
 [Connect on LinkedIn](https://www.linkedin.com/in/nathaniel-sim/)
 
