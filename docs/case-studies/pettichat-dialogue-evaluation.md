@@ -1,63 +1,40 @@
-# PettiChat research — persona dialogue and emotion evaluation
+# PettiChat: evaluating emotion in generated dialogue
 
-An experience case study of **Nathaniel Sim's Research Intern (Affective
-Computing)** role at **PettiChat**, October–December 2025 in Hangzhou, China.
-This account is based on the role description in his
-[public LinkedIn experience](https://www.linkedin.com/in/nathaniel-sim/details/experience/).
+**Research internship · Hangzhou, China · October–December 2025**
 
-## Research focus
+At [PettiChat](https://pettichat.com/), I worked on dialogue generation and text-emotion evaluation for AI pet characters. The research question was whether a generated reply could express an intended emotion while staying within the character's speaking style.
 
-The work explored how configurable pet personas could generate dialogue and how
-the resulting responses could be evaluated for emotion and style. The broader
-research context was human–pet communication.
+This work formed part of a collaborative internship research project. My focus was the dialogue and text-evaluation experiments described here.
 
-## Contributions and outputs
+## The problem
 
-| Area | Work described in the public experience record |
-|---|---|
-| Persona-based generation | Built a modular dialogue-generation and emotion-evaluation pipeline; synthesised additional dialogue from configurable pet personas. |
-| Evaluation coverage | Assessed responses against **six emotion categories** and automated emotional-alignment checks plus **four dialogue-style constraints**. |
-| Analysis records | Logged predictions, confidence and scores to CSV for inspecting model behaviour. |
-| Model adaptation | Fine-tuned **RoBERTa** models on cat and dog dialogue datasets. |
-| Research comparison | Evaluated textual emotion recognition (TER) and emotion recognition in conversation (ERC) approaches. |
-| Proposed direction | Proposed a **mixture-of-experts (MoE)** approach for pet dialogue as a research direction. |
+A fluent reply can still miss the intended emotion, break character, or describe an action instead of speaking. Reviewing examples helps, but it becomes difficult to compare experiments when the checks and records change between runs.
 
-## Workflow described
+The prototype made those checks explicit and kept each response alongside its evaluation.
 
-```text
-Configurable pet persona
-        ↓
-Generated dialogue
-        ↓
-Emotion evaluation + dialogue-style checks
-        ↓
-CSV predictions, confidence and scores
-        ↓
-Analysis of model behaviour
-```
+## Work completed
 
-The six emotion categories and four style constraints describe evaluation
-coverage. The public role summary provides no accuracy, latency, dataset-size or
-comparative benchmark measurements to report here. The MoE item records a
-proposal; the delivered work described above centres on generation, evaluation,
-model adaptation and analysis tooling.
+- **Persona tooling and synthetic dialogue experiments.** Tools combined pet-personality descriptors with prompt templates, alongside experiments that generated dialogue for model adaptation.
+- **Emotion-classification experiments.** RoBERTa training and inference notebooks explored classification of pet dialogue into six emotion categories. The work also included a review of textual emotion recognition and emotion recognition in conversation.
+- **A generation-and-evaluation prototype.** A Python pipeline generated short character replies, classified their expressed emotion, compared predictions with intended labels, and applied four style checks.
+- **Records for review.** CSV logs kept the input, generated reply, intended and predicted emotion, classifier confidence, style result, and evaluation score together.
 
-## Generative AI engineering themes
+## How evaluation worked
 
-- **Generation and evaluation together:** pair persona-conditioned output with
-  explicit checks for the behaviour the application needs.
-- **Inspectable model behaviour:** retain predictions, confidence and scores in
-  an analysis-friendly format.
-- **Task-specific adaptation:** combine model fine-tuning and synthetic dialogue
-  generation with a defined research question.
+Style checks covered response length, narration, explicit emotion words, and a language heuristic. Emotion classification was a separate step. A reply could therefore match an emotion label while failing the speaking-style checks.
 
-## Related public work
+The evaluation combined those signals into a review record. Its score was an experimental rule, not a validated measure of how a person would interpret the reply.
 
-- [Sprout Web](https://github.com/Neonat/sprout-web) — multimodal plant-to-creature
-  generation, operator tooling and testing in a collaborative project.
-- [Mira](https://github.com/Neonat/mira) — evidence-linked LLM research and human
-  review for an SMU YTP-AIF project responding to a DBS Internal Audit brief.
+## Tools and tradeoffs
 
-These projects illustrate related engineering interests across separate work
-contexts. PettiChat's company information is available at
-[pettichat.com](https://pettichat.com/).
+Python supported the experiments and logging. PyTorch and Hugging Face Transformers provided model training and inference, while scikit-learn metrics and plots supported analysis. CSV made individual cases easy to inspect without a separate application.
+
+Generation and classification were separate stages. This let the prototype inspect a reply with the same evaluation rules and record the cases that needed review.
+
+## Research scope
+
+These were research prototypes. The labels describe generated dialogue, not measurements of a real animal's emotional state. Classifier confidence is not proof of correctness, and automated style checks cannot replace human review.
+
+A mixture-of-experts approach was proposed as a possible research direction. It was separate from the implemented generation and evaluation work.
+
+The implementation, prompts, datasets, and internal results remain private.
