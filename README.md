@@ -2,19 +2,31 @@
 
 # Hi, I'm Nat 👋
 
-I'm a computer science student at SUTD building useful generative AI applications, with a focus on LLM workflows, evaluation, and multimodal generation.
+I build generative AI applications, focusing on LLM evaluation, evidence-linked research, and multimodal generation.
 
-I'm working with the [Sprout](https://github.com/Neonat/sprout-web) team, contributing to AI Pass in AI product & operations at Singtel, and leading GDG on Campus at SUTD. My experience includes dialogue generation and evaluation pipelines at PettiChat. I enjoy staying close to users and bringing developers together through technical workshops.
+I'm a computer science student at SUTD and part of the [Sprout](https://github.com/Neonat/sprout-web) team. I contribute to AI Pass in AI product & operations at Singtel and lead GDG on Campus at SUTD. I enjoy bringing developers together through technical workshops.
 
 [Connect on LinkedIn](https://www.linkedin.com/in/nathaniel-sim/) · [Hugging Face](https://huggingface.co/natsim)
 
 ## Selected projects
 
-- **[Mira](https://github.com/Neonat/mira)** — AI-assisted research for bank internal auditors, with source verification and human review.
-- **[Sprout Web](https://github.com/Neonat/sprout-web)** — a team project turning real plant photos into collectible creatures and battles, with a generative sprite pipeline.
-- **[Tandem](https://github.com/Neonat/tandem)** — a collaborative Build for Good prototype for family care updates, task ownership and caregiver handovers.
-- **[Social-service text pipeline](https://github.com/Neonat/social-service-text-pipeline)** — a Dell InnovateDash 2026 prototype for PII handling, sentiment, escalation signals and category classification.
-- **[Interactive stage tech](https://github.com/Neonat/sutd-02164ht-stage-tech)** — ESP32 button-driven brain visuals and a music-controlled show clock for a SUTD theatre performance.
+### Sprout
+
+A collaborative plant-to-creature game with species identification, generated sprites, creature collection, and turn-based battles.
+
+[Code](https://github.com/Neonat/sprout-web) · [Interface mockups](https://github.com/Neonat/sprout-web/tree/main/obsidian-vault/03%20Design/Frontend%20Mockups) · [Generation examples](https://github.com/Neonat/sprout-web/tree/main/client/public/plants)
+
+### Mira
+
+A collaborative agentic research prototype for bank internal auditors, with source-linked findings, claim verification, and human review.
+
+[Code](https://github.com/Neonat/mira-smu-ytp-aif-2026) · [Demo report](https://neonat.github.io/mira-smu-ytp-aif-2026/report.html) · [Dataset](https://huggingface.co/datasets/natsim/mira-hong-kong-aml-cft)
+
+### PettiChat
+
+During my PettiChat research internship, I worked on dialogue generation and evaluation with the team. The experiments used synthetic data, RoBERTa fine-tuning, and emotion and style checks.
+
+[Case study](docs/case-studies/pettichat-dialogue-evaluation.md) · [Model](https://huggingface.co/natsim/cat-dialogue-RoBERTa-2) · [Dataset](https://huggingface.co/datasets/natsim/if-cats-could-speak) · [Training Colab](https://colab.research.google.com/drive/1yk_0VGDDFQGPmq1ilUdo6iXavwiKDurQ?usp=sharing) · [Synthetic data Colab](https://colab.research.google.com/drive/1mErqPP8jMdS3AdJ0TcKS34eA5mbiC7FR?usp=sharing)
 
 <p align="center">
   <a href="https://github.com/Neonat/sprout-web">
@@ -23,7 +35,7 @@ I'm working with the [Sprout](https://github.com/Neonat/sprout-web) team, contri
     <img src="assets/sprout-cactus.png" width="80" alt="Cheeky cactus profile companion inspired by Sprout">
   </a>
   <br>
-  <sub>Monstera and two new Sprout-inspired profile companions.</sub>
+  <sub>Profile companions inspired by Sprout, our collaborative plant-to-creature game.</sub>
 </p>
 
 ## Models and datasets
@@ -55,6 +67,13 @@ Published research artifacts on [Hugging Face](https://huggingface.co/natsim), c
 [![JavaScript](https://img.shields.io/badge/JavaScript-173E33?style=for-the-badge&logo=javascript&logoColor=B7E5CD)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 [![Java](https://img.shields.io/badge/Java-173E33?style=for-the-badge&logo=openjdk&logoColor=B7E5CD)](https://dev.java/)
 
+**AI & ML**
+
+[![PyTorch](https://img.shields.io/badge/PyTorch-173E33?style=for-the-badge&logo=pytorch&logoColor=B7E5CD)](https://pytorch.org/)
+[![Transformers](https://img.shields.io/badge/Transformers-173E33?style=for-the-badge&logo=huggingface&logoColor=B7E5CD)](https://huggingface.co/docs/transformers/)
+[![Hugging Face](https://img.shields.io/badge/Hugging%20Face-173E33?style=for-the-badge&logo=huggingface&logoColor=B7E5CD)](https://huggingface.co/)
+[![Pydantic](https://img.shields.io/badge/Pydantic-173E33?style=for-the-badge&logo=pydantic&logoColor=B7E5CD)](https://docs.pydantic.dev/)
+
 **Web & data**
 
 [![React](https://img.shields.io/badge/React-173E33?style=for-the-badge&logo=react&logoColor=B7E5CD)](https://react.dev/)
@@ -74,7 +93,9 @@ Published research artifacts on [Hugging Face](https://huggingface.co/natsim), c
 
 ## More to explore
 
-- **[PettiChat research case study](docs/case-studies/pettichat-dialogue-evaluation.md)** — persona-based dialogue generation, emotion/style evaluation and RoBERTa fine-tuning from my affective-computing internship.
+- **[Tandem](https://github.com/Neonat/tandem)** — a collaborative Build for Good prototype for family care updates, task ownership and caregiver handovers.
+- **[Social-service text pipeline](https://github.com/Neonat/social-service-text-pipeline)** — a Dell InnovateDash 2026 prototype for PII handling, sentiment, escalation signals and category classification.
+- **[Interactive stage tech](https://github.com/Neonat/sutd-02164ht-stage-tech)** — ESP32 button-driven brain visuals and a music-controlled show clock for a SUTD theatre performance.
 - **[Sprout Android](https://github.com/Neonat/sprout-android)** — the Java/Android plant-to-creature game, previously called Plantemon.
 - **[Scam-message checker](https://github.com/Neonat/scam-message-checker)** — a Code EXP 2026 browser prototype using explicit rules to highlight suspicious-message signals.
 - **[Arcade prototype](https://github.com/Neonat/sutd-50002-fpga-arcade-machine)** — a two-player browser game and sprite studies for an arcade-machine project.
