@@ -6,7 +6,7 @@ I'm a computer science student at SUTD building useful generative AI application
 
 I'm working with the [Sprout](https://github.com/Neonat/sprout-web) team, contributing to AI Pass in AI product & operations at Singtel, and leading GDG on Campus at SUTD. My experience includes dialogue generation and evaluation pipelines at PettiChat. I enjoy staying close to users and bringing developers together through technical workshops.
 
-[Connect on LinkedIn](https://www.linkedin.com/in/nathaniel-sim/)
+[Connect on LinkedIn](https://www.linkedin.com/in/nathaniel-sim/) · [Hugging Face](https://huggingface.co/natsim)
 
 ## Selected projects
 
@@ -25,6 +25,26 @@ I'm working with the [Sprout](https://github.com/Neonat/sprout-web) team, contri
   <br>
   <sub>Monstera and two new Sprout-inspired profile companions.</sub>
 </p>
+
+## Models and datasets
+
+Published research artifacts on [Hugging Face](https://huggingface.co/natsim), covering dialogue evaluation, model fine-tuning, and source-linked research.
+
+| Artifact | Type | Focus |
+| --- | --- | --- |
+| [Pet-dialogue RoBERTa](https://huggingface.co/natsim/cat-dialogue-RoBERTa-2) | Model | Classifies generated pet dialogue into six emotion categories. |
+| [If cats could speak](https://huggingface.co/datasets/natsim/if-cats-could-speak) | Dataset | 27,889 synthetic texts labelled for emotion-classification experiments. |
+| [Mira Hong Kong AML/CFT sample](https://huggingface.co/datasets/natsim/mira-hong-kong-aml-cft) | Dataset | 18 paraphrased findings with publisher links from the collaborative Mira demo. |
+
+<details>
+<summary>Earlier models and dataset archive</summary>
+
+- [Earlier pet-dialogue RoBERTa checkpoint](https://huggingface.co/natsim/cat-dialogue-RoBERTa).
+- [Gemma pet-dialogue experiment](https://huggingface.co/natsim/petaiv2-gemma-adapters).
+- [Gemma emoji experiment](https://huggingface.co/natsim/myemoji-gemma-adapters).
+- [Pet-human dialogue archive](https://huggingface.co/datasets/natsim/pet_human_dialogue), an earlier dataset repository with no published data files.
+
+</details>
 
 ## Technologies across these projects
 
