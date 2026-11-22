@@ -31,10 +31,22 @@ Python supported the experiments and logging. PyTorch and Hugging Face Transform
 
 Generation and classification were separate stages. This let the prototype inspect a reply with the same evaluation rules and record the cases that needed review.
 
+## Public research artifacts
+
+| Artifact | What it contains |
+| --- | --- |
+| [Colab training notebook: Cat AI v4.3](https://colab.research.google.com/drive/1yk_0VGDDFQGPmq1ilUdo6iXavwiKDurQ?usp=sharing) | RoBERTa training, emotion-classification evaluation, confusion-matrix analysis, and model export experiments. |
+| [Colab synthetic data generation](https://colab.research.google.com/drive/1mErqPP8jMdS3AdJ0TcKS34eA5mbiC7FR?usp=sharing) | Template-based generation and variations for synthetic emotion-labelled text. |
+| [if-cats-could-speak dataset](https://huggingface.co/datasets/natsim/if-cats-could-speak) | Synthetic text labelled for the six emotion categories used in the classification experiments. |
+| [cat-dialogue-RoBERTa-2](https://huggingface.co/natsim/cat-dialogue-RoBERTa-2) | The published classifier checkpoint referenced by the final dialogue-evaluation prototype. |
+| [Earlier Gemma checkpoint](https://huggingface.co/natsim/petaiv2-gemma-adapters) | An earlier text-generation fine-tuning experiment based on Gemma. |
+
+The training notebook requires its input files and a configured runtime.
+
 ## Research scope
 
 These were research prototypes. The labels describe generated dialogue, not measurements of a real animal's emotional state. Classifier confidence is not proof of correctness, and automated style checks cannot replace human review.
 
 A mixture-of-experts approach was proposed as a possible research direction. It was separate from the implemented generation and evaluation work.
 
-The implementation, prompts, datasets, and internal results remain private.
+The internship repository and unpublished materials remain private.
